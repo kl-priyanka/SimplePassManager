@@ -11,4 +11,4 @@ A beginner-friendly **password manager** designed for securely storing and manag
 ## Installation  
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/kl-priyanka/password-manager.git
+   git clone https://github.com/kl-priyanka/CyberSecurityProject.git
