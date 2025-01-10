@@ -18,7 +18,7 @@ A beginner-friendly **password manager** designed for securely storing and manag
 ## Installation  
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/kl-priyanka/CyberSecurityProject.git
+   git clone https://github.com/kl-priyanka/SimplePassManager.git
 2. Install dependencies (if required):  
    ```bash
    pip install -r requirements.txt
@@ -57,6 +57,7 @@ CyberSecurityProject/
 ├── requirements.txt      # Dependencies list for the project
 ├── README.md             # Project documentation
 ├── .gitignore            # Specifies files and folders to ignore in version control
+├── LICENSE               # License file for the project
 ```  
 
 ## Contributing  
