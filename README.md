@@ -12,3 +12,57 @@ A beginner-friendly **password manager** designed for securely storing and manag
 1. Clone the repository:  
    ```bash
    git clone https://github.com/kl-priyanka/CyberSecurityProject.git
+2. Install dependencies (if required):  
+   ```bash
+   pip install -r requirements.txt
+   ```  
+
+---
+
+## Usage  
+1. Run the application:  
+   ```bash
+   streamlit run password_manager.py
+   ```  
+2. Set up a **master password** if you’re running it for the first time.  
+3. Use the application to:  
+   - Save new passwords.  
+   - Retrieve stored passwords.  
+   - Manage your saved accounts securely.  
+
+---
+
+## Prerequisites  
+- **Python 3.7+**  
+- Any additional libraries (mentioned in `requirements.txt`)  
+
+---
+
+## Project Structure  
+```
+CyberSecurityProject/
+├── password_manager.py   # Main application file
+├── key.key               # Encryption key file for securing passwords
+├── master_password.txt   # Stores the hashed master password
+├── passwords.json        # Stores encrypted passwords in JSON format
+├── requirements.txt      # Dependencies list for the project
+├── README.md             # Project documentation
+```  
+
+## Contributing  
+Contributions are welcome! If you’d like to improve this project, please:  
+1. Fork the repository.  
+2. Create a new branch for your feature or bug fix.  
+3. Submit a pull request.  
+
+---
+
+## License  
+This project is licensed under the [MIT License](LICENSE).  
+
+---
+
+## Acknowledgments  
+This project is a beginner-level cybersecurity tool, created to learn and implement basic encryption and secure storage concepts.  
+
+Feel free to suggest improvements or provide feedback! 🚀  
