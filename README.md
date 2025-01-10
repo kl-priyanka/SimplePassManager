@@ -2,12 +2,19 @@
 
 A beginner-friendly **password manager** designed for securely storing and managing your passwords using **encryption**. This project features a master password for authentication, ensuring your sensitive information remains protected.  
 
+---
 ## Features  
 - **Master Password Protection**: Access your stored passwords securely with a single master password.  
 - **Encryption**: Passwords are encrypted to maintain confidentiality.  
 - **User-Friendly Interface**: Intuitive and easy-to-use design for all users.  
 - **Secure Storage**: Safely store multiple passwords in a secure database or file system.
 
+---
+## Prerequisites  
+- **Python 3.7+**  
+- Any additional libraries (mentioned in `requirements.txt`)
+
+---
 ## Installation  
 1. Clone the repository:  
    ```bash
@@ -32,9 +39,11 @@ A beginner-friendly **password manager** designed for securely storing and manag
 
 ---
 
-## Prerequisites  
-- **Python 3.7+**  
-- Any additional libraries (mentioned in `requirements.txt`)  
+### Files Generated
+The following files will be created automatically when you run the application:
+- `passwords.json`: Stores the encrypted passwords.
+- `master_password.txt`: Contains the hashed master password.
+- `key.key`: The encryption key used to secure passwords.  
 
 ---
 
@@ -47,6 +56,7 @@ CyberSecurityProject/
 ├── passwords.json        # Stores encrypted passwords in JSON format
 ├── requirements.txt      # Dependencies list for the project
 ├── README.md             # Project documentation
+├── .gitignore            # Specifies files and folders to ignore in version control
 ```  
 
 ## Contributing  
