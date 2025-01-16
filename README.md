@@ -16,7 +16,7 @@ A beginner-friendly **password manager** designed for securely storing and manag
 
 ---
 ## Installation  
-1. Clone the repository:  
+1. Clone the repository: 
    ```bash
    git clone https://github.com/kl-priyanka/SimplePassManager.git
 2. Install dependencies (if required):  
@@ -41,9 +41,9 @@ A beginner-friendly **password manager** designed for securely storing and manag
 
 ### Files Generated
 The following files will be created automatically when you run the application:
+- `key.key`: The encryption key used to secure passwords.
 - `passwords.json`: Stores the encrypted passwords.
 - `master_password.txt`: Contains the hashed master password.
-- `key.key`: The encryption key used to secure passwords.  
 
 ---
 
